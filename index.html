@@ -3,9 +3,20 @@
 <head>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
     <title ng-bind="title"></title>
     <base href="/">
+
+    <script type="application/ld+json">
+        { "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Kikstand",
+          "url": "http://www.kikstand.com",
+          "sameAs": ["http://www.facebook.com/mykikstand", "https://twitter.com/mykikstand"]
+          }
+
+    </script>
     <style>
         .ng-hide {
             display: none !important;
