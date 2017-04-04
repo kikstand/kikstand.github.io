@@ -1,83 +1,15 @@
-<!DOCTYPE html>
-<html data-ng-app="app" ng-strict-di>
-<head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
-    <title ng-bind="title"></title>
-    <base href="/">
+---
+layout: landing
+title: "Kikstand"
+masthead-title: It takes more than imagination.
+masthead-subtitle: Kikstand. Supporting clients in all aspects of information technology.
+page-class: page--home
+description: ""
+---
+</div><!-- /wrapper -->
 
-    <script type="application/ld+json">
-        { "@context": "http://schema.org",
-          "@type": "Organization",
-          "name": "Kikstand",
-          "url": "http://www.kikstand.com",
-          "sameAs": ["http://www.facebook.com/mykikstand", "https://twitter.com/mykikstand"]
-          }
+{% include promo-home.html %}
 
-    </script>
+{% include client-list.html %}
 
-    <meta property="og:title" content="Kikstand">
-    <meta property="og:image" content="favicon-32x32.png">
-    <meta property="og:description"
-          content="Our Mission is Your Success. Kikstand is dedicated to increase the support and advocacy for missionaries, and their mission.">
-    <style>
-        .ng-hide {
-            display: none !important;
-        }
-    </style>
-    <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="manifest.json">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-TileImage" content="mstile-144x144.png">
-    
-
-    <link rel="stylesheet" href="assets/app-3f550d71.css">
-</head>
-<body class="fixed-footer">
-    <!-- Google Tag Manager -->
-    <noscript>
-        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-KNHN27"
-                height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <script>(function ( w, d, s, l, i ) {
-        w[l] = w[l] || [];
-        w[l].push ( {
-            'gtm.start' : new Date ().getTime (), event : 'gtm.js'
-        } );
-        var f = d.getElementsByTagName ( s )[0],
-            j = d.createElement ( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore ( j, f );
-    }) ( window, document, 'script', 'dataLayer', 'GTM-KNHN27' );</script>
-    <!-- End Google Tag Manager -->
-
-    <div class="ks-dialog-parent">
-        <div data-ng-include="'app/layout/shell.tpl.html'"></div>
-    </div>
-
-    <script src="js/lib-ad0650fc.js"></script>
-
-    <script src="js/app-3193a2b6.js"></script>
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript"
-            src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54f5685e459d7b89"
-            async="async"></script>
-</body>
-</html>
-<!--<script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>-->
+{% include carousel.html %}

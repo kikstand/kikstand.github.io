@@ -1,0 +1,45 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+.btn {
+    @include font-weight(bold);
+    @include vendor(transition, 0.2s);
+
+    @include attention() {
+        background-color: darken($color-btn, 10%);
+            border-color: darken($color-btn, 10%);
+    }
+
+}
+
+.btn--secondary {
+    background: none;
+    color: $color-btn;
+
+    @include attention() {
+        background: none;
+        color: darken($color-btn, 10%);
+    }
+
+}
+
+.btn--positive {
+    @include font-weight(regular);
+
+    @include attention(self) {
+        background-color: $color-positive;
+            border-color: $color-positive;
+    }
+
+}
+
+//.btn--negative {
+//    @include font-weight(regular);
+//
+//    @include attention(self) {
+//        background-color: $color-negative;
+//            border-color: $color-negative;
+//    }
+//
+//}
