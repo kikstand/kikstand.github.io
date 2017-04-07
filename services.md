@@ -6,22 +6,15 @@ meta: "Services offered to clients of all shapes and sizes"
 permalink: /services/
 ---
 
-<blockquote class="pull-quote  pull-quote--context-alt" id="quote:addy-osmani"><p>Harry’s tailored
-workshop was nothing short of fantastic, and a real eye-opener, helping our team
-level up their scalable CSS architecture skills. The entire team left it
-learning something new, and to say that what was covered will have a large
-impact on our work is an understatement. We can’t recommend him enough.</p><b
-class="source pull-quote__source"><a href="https://twitter.com/addyosmani">Addy
-Osmani</a>, Google</b></blockquote>
+<blockquote class="pull-quote  pull-quote--context-alt" id="quote:addy-osmani"><p>The ability to not only understand the business, and how it operates, but also the best way to marry the best technology to improve the business - and then do it successfully - unparalleled.</p><b
+class="source pull-quote__source"><a href="https://www.linkedin.com/in/mark-mercer-904aa512/">Mark Mercer</a>, American Tower</b></blockquote>
 
-For many years now, I have worked as an independent consultant, helping some of
-the biggest companies in the world to improve their products by providing
-consultancy, audits, code, workshops, and more.
+offers consulting for senior-level IT strategy, architecture and implementation management on a defined-scope, project-by-project basis.
 
-With a strong focus on performance and efficiency, my work aims to leave
-companies with faster code and faster teams.
+We provide in depth assessment, strategic planning and development, effective implementation and ongoing management across a broad scope of technologies and industries.
 
-Thinking of hiring me? [You’re in good company](/#section:clients).
+Let us know how we can help you.
+
 
 <ul class="feature-list">
 

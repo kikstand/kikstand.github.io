@@ -1,0 +1,17 @@
+<!-- Page name dependent content -->
+{% if page.title == "Contact Us" %}
+<div class="c-email">
+    <h1></h1>
+</div>
+{% else %}
+
+<div class="c-email">
+    <form method="POST" action="http://formspree.io/bo@kikstand.com" class="validate">
+        <h5 class="c-email__title">Contact Us</h5>
+        <p class="c-email__text">Enter email address and press submit we'll get back to within the hour</p>
+        <input type="email" name="_replyto" placeholder="email@domain.com" class="c-input-text c-email__email  required email">
+        <input type="text" name="_gotcha" style="display:none"/>
+        <input type="submit" value="Send" name="subscribe" class="button  btn  c-email__submit"/>
+    </form>
+</div>
+{% endif %}
