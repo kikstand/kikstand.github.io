@@ -57,8 +57,12 @@ $logo-height: 64px;
   height: auto;
 
   .page-head--masthead & {
-    width: 100%;
+    width: 65%;
     height: auto;
+
+    @include media-query(lap-and-up) {
+      width: 100%;
+    }
   }
 }
 
